@@ -120,5 +120,3 @@ def f(x):
 
 x = sp.Symbol("x")
 print(sp.integrate(f(x), (x, 0, 2 * sp.pi)))
-
-pygmentize -o palautettavat.tex -f latex palautettavat6.py
